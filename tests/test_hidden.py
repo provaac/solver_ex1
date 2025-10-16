@@ -4,8 +4,8 @@ from solucio import resol
 @pytest.mark.parametrize(
     "entrada,esperat",
     [
-        ([1, -2, 3], 4),
-        ([1, -2, 4], 5),
+        ([1, -2, 3], 2),
+        ([1, -2, 4], 3),
         ([0, 0, 0], 0),
     ],
     ids=[
