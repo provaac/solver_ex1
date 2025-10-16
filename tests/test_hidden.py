@@ -1,4 +1,5 @@
 import pytest
+import random
 from solucio import resol
 
 def generar_vectors(n: int = 300, seed: int = 42):
